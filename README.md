@@ -12,6 +12,8 @@ This project is an extension to the project [The Conurbation Algorithm](https://
 ### Input-
 LISS-III satellite data obtained from Open Data Archive from [ISROBhuvan](https://bhuvan-app3.nrsc.gov.in/data/download/index.php)
 
+The sample dataset consists of 16 tif images(4 cooresponding to each of the 4 geographical location).
+
 Input multispectral Images -
 
 <img src="https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/img/readme.png" width="400" height ="400">

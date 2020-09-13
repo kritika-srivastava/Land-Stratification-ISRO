@@ -5,7 +5,7 @@
 Land cover classification has been one of the most common tasks in remote sensing as it is the foundation for many global and environmental applications.
 
 This project is an extension to the project [The Conurbation Algorithm](https://github.com/kritika-srivastava/The-Conurbation-Algorithm) and the aim of this project is to preprocess the input data for the city Generation.
-### Challenges overcomed:
+### Challenges :
 - Dataset preprocessing and stitching all tif images cooresponding to a geographical location (Mosaic generation).
 - Extraction of contours for vegetation.
 - Desaturating the contour plot  to obtain a grayscale image.

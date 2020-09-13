@@ -11,19 +11,33 @@ This project is an extension to the project [The Conurbation Algorithm]() and th
 - Desaturating the contour plot  to obtain a grayscale image.
 ### Input-
 LISS-III satellite data obtained from Open Data Archive from [ISROBhuvan](https://bhuvan-app3.nrsc.gov.in/data/download/index.php)
+
 Input multispectral Images -
-<img src="https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/img/readme.png" width="500">
+
+<img src="https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/img/readme.png" width="400" height ="400">
 
 ### Dependencies -
 - Python
 - Rasterio
 - PIL
 - Matplotlib
+### Steps to replicate the output
+- Clone this repository.
+- Install the required dependencies in the runtime environment (Preferably Anaconda).
+- cd to the [jupyter notebook]() and change the paths of inputs. 
+- Run the jupyter notebook.
+If everything worked so far the output should look like the one given below.
+
 ### Output Mosaic -
-<img src="https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/img/output.png" width="500">
+
+<img src="https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/img/output.PNG" width="400">
+
+### Contour Extraction -
+<img src="https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/img/contour.PNG" width="400">
 
 ### Grayscale Image-
-
+<img src="https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/Binary_mosaic.png" width="400">
 
 ### References -
-
+#### [Rasterio Documentation](https://rasterio.readthedocs.io/en/latest/quickstart.html)
+#### [Mosaic Generation](https://automating-gis-processes.github.io/CSC18/lessons/L6/raster-mosaic.html)

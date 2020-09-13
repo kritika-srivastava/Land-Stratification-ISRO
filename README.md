@@ -4,7 +4,7 @@
 
 Land cover classification has been one of the most common tasks in remote sensing as it is the foundation for many global and environmental applications.
 
-This project is an extension to the project [The Conurbation Algorithm]() and the aim of this project is to preprocess the input data for the city Generation.
+This project is an extension to the project [The Conurbation Algorithm](https://github.com/kritika-srivastava/The-Conurbation-Algorithm) and the aim of this project is to preprocess the input data for the city Generation.
 ### Challenges overcomed:
 - Dataset preprocessing and stitching all tif images cooresponding to a geographical location (Mosaic generation).
 - Extraction of contours for vegetation.
@@ -24,8 +24,10 @@ Input multispectral Images -
 ### Steps to replicate the output
 - Clone this repository.
 - Install the required dependencies in the runtime environment (Preferably Anaconda).
-- cd to the [jupyter notebook]() and change the paths of inputs. 
+- cd to the [jupyter notebook](https://github.com/kritika-srivastava/Land-Stratification-ISRO/blob/master/Main.ipynb) and change the paths of inputs. 
 - Run the jupyter notebook.
+##### Note- The jupyter notebook won't be visible on the github as github cannot render raster files properly. It is advised to run the file on google colab or jupyter notebook.
+
 If everything worked so far the output should look like the one given below.
 
 ### Output Mosaic -
